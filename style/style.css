@@ -248,6 +248,10 @@
     font-weight: 700;
     font-size: 20px;
 }
+.stock :last-child{
+
+    color: var(--order-orange);
+}
 .price {
     display: flex;
     align-items: center;
@@ -451,7 +455,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 14px;
     width: 100%;
     height: 100%;    
 }
@@ -501,4 +504,72 @@
     gap: 10px;
 }
 /* last hero section end */
+
+/* footer part start  */
+footer{
+    width: 1440px;
+    background-color: #fff;
+    padding: 100px 70px 48px 70px;
+    margin: auto;
+}
+.main-footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer-section {
+    width: 413px;
+}
+.left-footer-section p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 1.5rem;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.social-media i{
+    color: #BC6D33;
+}
+.different{
+    margin-bottom: 1rem;
+}
+strong{
+    margin-bottom: 1rem;
+}
+
+.About-store h4{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: bold;
+    border-bottom: 2px solid #BC6D33;
+    display: inline-block;
+}
+.About-store ul li {
+    margin-bottom: 1rem;
+    list-style: none;
+    font-size: 1rem;
+}
+.About-store ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.right-footer-section{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    width: 790px;
+}
+.hr{
+    border: 2px solid #000;
+}
+#copyright{
+    margin-top: 50px;
+    font-style: bold;
+    text-align: center;
+}
+/* footer part end */
 
